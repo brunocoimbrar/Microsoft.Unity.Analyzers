@@ -29,7 +29,7 @@ public class SetPositionAndRotationAnalyzer : DiagnosticAnalyzer
 		title: Strings.SetPositionAndRotationDiagnosticTitle,
 		messageFormat: Strings.SetPositionAndRotationDiagnosticMessageFormat,
 		category: DiagnosticCategory.Performance,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.SetPositionAndRotationDiagnosticDescription);
 

@@ -26,7 +26,7 @@ public class TagComparisonAnalyzer : DiagnosticAnalyzer
 		title: Strings.TagComparisonDiagnosticTitle,
 		messageFormat: Strings.TagComparisonDiagnosticMessageFormat,
 		category: DiagnosticCategory.Performance,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.TagComparisonDiagnosticDescription);
 

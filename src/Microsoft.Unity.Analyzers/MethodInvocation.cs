@@ -29,7 +29,7 @@ public class MethodInvocationAnalyzer : DiagnosticAnalyzer
 		title: Strings.MethodInvocationDiagnosticTitle,
 		messageFormat: Strings.MethodInvocationDiagnosticMessageFormat,
 		category: DiagnosticCategory.TypeSafety,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.MethodInvocationDiagnosticDescription);
 

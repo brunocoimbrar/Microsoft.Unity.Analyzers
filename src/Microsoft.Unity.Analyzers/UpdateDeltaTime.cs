@@ -28,7 +28,7 @@ public class UpdateDeltaTimeAnalyzer : DiagnosticAnalyzer
 		title: Strings.UpdateWithoutFixedDeltaTimeDiagnosticTitle,
 		messageFormat: Strings.UpdateWithoutFixedDeltaTimeDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.UpdateWithoutFixedDeltaTimeDiagnosticDescription);
 
@@ -39,7 +39,7 @@ public class UpdateDeltaTimeAnalyzer : DiagnosticAnalyzer
 		title: Strings.FixedUpdateWithoutDeltaTimeDiagnosticTitle,
 		messageFormat: Strings.FixedUpdateWithoutDeltaTimeDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Hidden,
 		isEnabledByDefault: false, // see https://github.com/microsoft/Microsoft.Unity.Analyzers/issues/26
 		description: Strings.FixedUpdateWithoutDeltaTimeDiagnosticDescription);
 

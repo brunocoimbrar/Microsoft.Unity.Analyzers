@@ -24,7 +24,7 @@ public class IndirectionMessageAnalyzer : DiagnosticAnalyzer
 		title: Strings.IndirectionMessageDiagnosticTitle,
 		messageFormat: Strings.IndirectionMessageDiagnosticMessageFormat,
 		category: DiagnosticCategory.Performance,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.IndirectionMessageDiagnosticDescription);
 

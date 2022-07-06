@@ -25,7 +25,7 @@ public class ImproperMenuItemMethodAnalyzer : DiagnosticAnalyzer
 		title: Strings.ImproperMenuItemMethodDiagnosticTitle,
 		messageFormat: Strings.ImproperMenuItemMethodDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.ImproperMenuItemMethodDiagnosticDescription);
 

@@ -22,7 +22,7 @@ public class ReflectionAnalyzer : DiagnosticAnalyzer
 		title: Strings.ReflectionDiagnosticTitle,
 		messageFormat: Strings.ReflectionDiagnosticMessageFormat,
 		category: DiagnosticCategory.Performance,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.ReflectionDiagnosticDescription);
 

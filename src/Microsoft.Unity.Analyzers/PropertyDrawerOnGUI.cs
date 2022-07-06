@@ -24,7 +24,7 @@ public class PropertyDrawerOnGUIAnalyzer : DiagnosticAnalyzer
 		title: Strings.PropertyDrawerOnGUIDiagnosticTitle,
 		messageFormat: Strings.PropertyDrawerOnGUIDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.PropertyDrawerOnGUIDiagnosticDescription);
 

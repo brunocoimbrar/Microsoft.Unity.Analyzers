@@ -21,7 +21,7 @@ public class UnusedCoroutineReturnValueAnalyzer : DiagnosticAnalyzer
 		title: Strings.UnusedCoroutineReturnValueDiagnosticTitle,
 		messageFormat: Strings.UnusedCoroutineReturnValueDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.UnusedCoroutineReturnValueDiagnosticDescription);
 

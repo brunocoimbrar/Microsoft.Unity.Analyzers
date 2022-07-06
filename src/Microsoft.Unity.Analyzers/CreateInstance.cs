@@ -29,7 +29,7 @@ public class CreateInstanceAnalyzer : DiagnosticAnalyzer
 		title: Strings.CreateComponentInstanceDiagnosticTitle,
 		messageFormat: Strings.CreateComponentInstanceDiagnosticMessageFormat,
 		category: DiagnosticCategory.TypeSafety,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.CreateMonoBehaviourInstanceDiagnosticDescription);
 
@@ -40,8 +40,8 @@ public class CreateInstanceAnalyzer : DiagnosticAnalyzer
 		title: Strings.CreateScriptableObjectInstanceDiagnosticTitle,
 		messageFormat: Strings.CreateScriptableObjectInstanceDiagnosticMessageFormat,
 		category: DiagnosticCategory.TypeSafety,
-		defaultSeverity: DiagnosticSeverity.Info,
-		isEnabledByDefault: true,
+		defaultSeverity: DiagnosticSeverity.Hidden,
+		isEnabledByDefault: false,
 		description: Strings.CreateScriptableObjectInstanceDiagnosticDescription);
 
 	public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics => ImmutableArray.Create(ComponentIdRule, ScriptableObjectRule);

@@ -21,7 +21,7 @@ public class GetComponentIncorrectTypeAnalyzer : DiagnosticAnalyzer
 		title: Strings.GetComponentIncorrectTypeDiagnosticTitle,
 		messageFormat: Strings.GetComponentIncorrectTypeDiagnosticMessageFormat,
 		category: DiagnosticCategory.TypeSafety,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.GetComponentIncorrectTypeDiagnosticDescription);
 

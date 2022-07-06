@@ -25,7 +25,7 @@ public class SetPixelsMethodUsageAnalyzer : MethodUsageAnalyzer<SetPixelsMethodU
 		title: Strings.SetPixelsMethodUsageDiagnosticTitle,
 		messageFormat: Strings.SetPixelsMethodUsageDiagnosticMessageFormat,
 		category: DiagnosticCategory.Performance,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.SetPixelsMethodUsageDiagnosticDescription);
 

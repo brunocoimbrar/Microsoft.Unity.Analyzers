@@ -26,7 +26,7 @@ public class PhysicsAllocMethodUsageAnalyzer : MethodUsageAnalyzer<PhysicsAllocM
 		title: Strings.PhysicsAllocMethodUsageDiagnosticTitle,
 		messageFormat: Strings.PhysicsAllocMethodUsageDiagnosticMessageFormat,
 		category: DiagnosticCategory.Performance,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.PhysicsAllocMethodUsageDiagnosticDescription);
 

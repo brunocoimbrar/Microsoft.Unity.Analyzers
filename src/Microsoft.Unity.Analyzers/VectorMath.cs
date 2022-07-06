@@ -28,7 +28,7 @@ public class VectorMathAnalyzer : DiagnosticAnalyzer
 		title: Strings.VectorMathDiagnosticTitle,
 		messageFormat: Strings.VectorMathDiagnosticMessageFormat,
 		category: DiagnosticCategory.Performance,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.VectorMathDiagnosticDescription);
 

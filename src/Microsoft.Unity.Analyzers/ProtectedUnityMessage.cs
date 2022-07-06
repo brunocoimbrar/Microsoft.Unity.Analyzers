@@ -24,8 +24,8 @@ public class ProtectedUnityMessageAnalyzer : DiagnosticAnalyzer
 		title: Strings.ProtectedUnityMessageDiagnosticTitle,
 		messageFormat: Strings.ProtectedUnityMessageDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
-		isEnabledByDefault: false,
+		defaultSeverity: DiagnosticSeverity.Error,
+		isEnabledByDefault: true,
 		description: Strings.ProtectedUnityMessageDiagnosticDescription);
 
 	public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics => ImmutableArray.Create(Rule);

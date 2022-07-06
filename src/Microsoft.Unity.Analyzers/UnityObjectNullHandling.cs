@@ -25,7 +25,7 @@ public class UnityObjectNullHandlingAnalyzer : DiagnosticAnalyzer
 		title: Strings.UnityObjectNullCoalescingDiagnosticTitle,
 		messageFormat: Strings.UnityObjectNullCoalescingDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.UnityObjectNullCoalescingDiagnosticDescription);
 
@@ -34,7 +34,7 @@ public class UnityObjectNullHandlingAnalyzer : DiagnosticAnalyzer
 		title: Strings.UnityObjectNullPropagationDiagnosticTitle,
 		messageFormat: Strings.UnityObjectNullPropagationDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.UnityObjectNullPropagationDiagnosticDescription);
 
@@ -43,7 +43,7 @@ public class UnityObjectNullHandlingAnalyzer : DiagnosticAnalyzer
 		title: Strings.UnityObjectCoalescingAssignmentDiagnosticTitle,
 		messageFormat: Strings.UnityObjectCoalescingAssignmentDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.UnityObjectCoalescingAssignmentDiagnosticDescription);
 
@@ -52,7 +52,7 @@ public class UnityObjectNullHandlingAnalyzer : DiagnosticAnalyzer
 		title: Strings.UnityObjectIsPatternDiagnosticTitle,
 		messageFormat: Strings.UnityObjectIsPatternDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.UnityObjectIsPatternDiagnosticDescription);
 

@@ -24,7 +24,7 @@ public class EmptyUnityMessageAnalyzer : DiagnosticAnalyzer
 		title: Strings.EmptyUnityMessageDiagnosticTitle,
 		messageFormat: Strings.EmptyUnityMessageDiagnosticMessageFormat,
 		category: DiagnosticCategory.Performance,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.EmptyUnityMessageDiagnosticDescription);
 

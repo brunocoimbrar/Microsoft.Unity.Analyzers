@@ -29,7 +29,7 @@ public class TryGetComponentAnalyzer : DiagnosticAnalyzer
 		title: Strings.TryGetComponentDiagnosticTitle,
 		messageFormat: Strings.TryGetComponentDiagnosticMessageFormat,
 		category: DiagnosticCategory.Performance,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.TryGetComponentDiagnosticDescription);
 

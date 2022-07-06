@@ -21,7 +21,7 @@ public class ImproperSerializeFieldAnalyzer : DiagnosticAnalyzer
 		title: Strings.ImproperSerializeFieldDiagnosticTitle,
 		messageFormat: Strings.ImproperSerializeFieldDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.ImproperSerializeFieldDiagnosticDescription);
 

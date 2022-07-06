@@ -29,7 +29,7 @@ public class InputGetKeyAnalyzer : DiagnosticAnalyzer
 		title: Strings.InputGetKeyDiagnosticTitle,
 		messageFormat: Strings.InputGetKeyDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.InputGetKeyDiagnosticDescription);
 

@@ -25,7 +25,7 @@ public class InitializeOnLoadStaticCtorAnalyzer : DiagnosticAnalyzer
 		title: Strings.InitializeOnLoadStaticCtorDiagnosticTitle,
 		messageFormat: Strings.InitializeOnLoadStaticCtorDiagnosticMessageFormat,
 		category: DiagnosticCategory.Correctness,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.InitializeOnLoadStaticCtorDiagnosticDescription);
 

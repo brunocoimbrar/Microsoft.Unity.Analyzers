@@ -29,7 +29,7 @@ public class NonGenericGetComponentAnalyzer : DiagnosticAnalyzer
 		title: Strings.NonGenericGetComponentDiagnosticTitle,
 		messageFormat: Strings.NonGenericGetComponentDiagnosticMessageFormat,
 		category: DiagnosticCategory.TypeSafety,
-		defaultSeverity: DiagnosticSeverity.Info,
+		defaultSeverity: DiagnosticSeverity.Error,
 		isEnabledByDefault: true,
 		description: Strings.NonGenericGetComponentDiagnosticDescription);
 
